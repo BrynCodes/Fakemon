@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="7" height="7" tilewidth="64" tileheight="64" infinite="0" nextlayerid="10" nextobjectid="11">
+ <tileset firstgid="1" source="TileSets/floorTIles.tsx"/>
+ <tileset firstgid="73" source="TileSets/wallpapers.tsx"/>
+ <tileset firstgid="169" source="TileSets/indoorDeco.tsx"/>
+ <tileset firstgid="337" source="TileSets/randomImages.tsx"/>
+ <layer id="2" name="bg" width="7" height="7">
+  <properties>
+   <property name="group" value="below"/>
+  </properties>
+  <data encoding="csv">
+77,77,77,77,77,77,77,
+85,85,85,85,85,85,85,
+38,39,39,39,39,39,39,
+46,47,47,47,47,47,47,
+46,47,47,47,47,47,47,
+46,47,47,47,47,47,47,
+46,47,47,47,47,47,47
+</data>
+ </layer>
+ <layer id="9" name="bg2" width="7" height="7">
+  <properties>
+   <property name="group" value="below"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,265,266,266,267,0,0,
+0,273,274,274,275,0,0,
+0,281,282,282,283,0,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="collidable tiles" width="7" height="7">
+  <properties>
+   <property name="group" value="collision"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,176,0,
+0,0,0,0,0,0,0,
+0,0,248,0,0,316,0,
+0,201,202,0,271,324,0,
+0,209,210,271,0,332,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="6" name="Objects">
+  <properties>
+   <property name="group" value="objects"/>
+  </properties>
+  <object id="10" gid="338" x="179.5" y="94" width="64" height="68"/>
+ </objectgroup>
+ <layer id="1" name="trim" width="7" height="7">
+  <properties>
+   <property name="group" value=""/>
+  </properties>
+  <data encoding="csv">
+1,2,2,2,2,2,3,
+9,0,0,0,0,0,11,
+9,0,0,0,0,0,11,
+9,0,0,0,0,0,11,
+9,0,0,0,0,0,11,
+9,0,0,0,0,0,11,
+17,18,5,4,18,18,19
+</data>
+ </layer>
+ <objectgroup id="8" name="Transition">
+  <properties>
+   <property name="group" value="tra"/>
+  </properties>
+  <object id="8" x="146.666" y="441.333" width="89.3333" height="11.3333">
+   <properties>
+    <property name="dest" value="main"/>
+    <property name="pos" value="2013,4419"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="collisions" visible="0">
+  <properties>
+   <property name="group" value="colls"/>
+  </properties>
+  <object id="1" x="-44" y="1" width="519" height="70"/>
+  <object id="2" x="-38" y="-2" width="50" height="469"/>
+  <object id="3" x="-41" y="432" width="165" height="60"/>
+  <object id="4" x="253" y="428" width="196" height="55"/>
+  <object id="5" x="430" y="0" width="42" height="480"/>
+  <object id="9" x="118" y="448" width="146" height="44"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,37 @@
+Surf,35,100,water,Attack
+Water Pulse,30,100,water,Attack
+Protect,0.4,0,normal,Defend
+Wing Attack,25,69,flying,Attack
+Water Gun,20,71,water,Attack
+Rock Blast,30,91,rock,Attack
+Recover,0.4,0,normal,Defend
+Mud Shot,25,95,ground,Attack
+Sandstorm,0.25,0,ground,Defend
+Spark,30,78,electric,Attack
+Confuse Ray,0.25,0,ghost,Defend
+Leaf Blade,35,82,grass,Attack
+Quick Attack,20,67,normal,Attack
+Agility,0.25,0,psychic,Defend
+Mach Punch,25,86,fighting,Attack
+Giga Drain,30,79,grass,Attack
+Poison Powder,20,75,poison,Attack
+Faint Attack,30,97,dark,Attack
+Fake Out,20,100,normal,Attack
+Bite,25,100,dark,Attack
+Glare,0.3,0,normal,Defend
+Slash,30,100,normal,Attack
+Howl,0.25,0,normal,Defend
+Crunch,35,100,dark,Attack
+Dragon Breath,30,100,dragon,Attack
+Sand Tomb,25,85,ground,Attack
+Synthesis,0.4,0,grass,Defend
+Ice Beam,35,100,ice,Attack
+Blizzard,40,70,ice,Attack
+Body Slam,30,100,normal,Attack
+Ice Ball,25,90,ice,Attack
+Aurora Beam,30,100,ice,Attack
+Hail,0.3,0,ice,Defend
+Present,20,90,normal,Attack
+Fly,35,95,flying,Attack
+Icy Wind,25,95,ice,Attack
+Godly Smite,10000,10000,normal,Attack

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="12" height="12" tilewidth="64" tileheight="64" infinite="0" nextlayerid="8" nextobjectid="36">
+ <tileset firstgid="1" source="TileSets/floorTIles.tsx"/>
+ <tileset firstgid="73" source="TileSets/wallpapers.tsx"/>
+ <tileset firstgid="169" source="TileSets/desks.tsx"/>
+ <tileset firstgid="199" source="TileSets/indoorDeco.tsx"/>
+ <tileset firstgid="367" source="TileSets/npcs.tsx"/>
+ <tileset firstgid="1485" source="TileSets/more terrain.tsx"/>
+ <tileset firstgid="2280" source="TileSets/trees.tsx"/>
+ <tileset firstgid="2294" source="TileSets/smallRocks.tsx"/>
+ <layer id="1" name="bg" width="12" height="12">
+  <properties>
+   <property name="group" value="below"/>
+  </properties>
+  <data encoding="csv">
+122,122,122,122,122,122,122,122,122,122,122,122,
+130,130,130,130,130,130,130,130,130,130,130,130,
+1708,1708,1708,1708,1708,1708,1708,1708,1708,1708,1708,1708,
+1708,1708,1708,1708,1708,1708,1708,1708,1708,1708,1708,1708,
+1708,1708,1708,1708,1708,1708,1708,1708,1708,1708,1708,1708,
+1708,1708,1708,1708,1708,1708,1708,1708,1708,1708,1708,1708,
+1708,1708,1708,1708,1708,1708,1708,1708,1708,1708,1708,1708,
+1708,1708,1708,1708,1708,1708,1708,1708,1708,1708,1708,1708,
+1708,1708,1708,1708,1708,1708,1708,1708,1708,1708,1708,1708,
+1708,1708,1708,1708,1708,1708,1708,1708,1708,1708,1708,1708,
+1708,1708,1708,1708,1708,1708,1708,1708,1708,1708,1708,1708,
+1708,1708,1708,1708,1708,1708,1708,1708,1708,1708,1708,1708
+</data>
+ </layer>
+ <objectgroup id="7" name="dialog">
+  <properties>
+   <property name="group" value="dialog"/>
+  </properties>
+  <object id="32" x="434.667" y="336" width="116" height="28">
+   <properties>
+    <property name="text">Congrats for beating us. Go check the shop
+for the next gym key.</property>
+   </properties>
+  </object>
+  <object id="34" x="433.333" y="330" width="114.667" height="48">
+   <properties>
+    <property name="area" value="snowy"/>
+    <property name="iD" type="int" value="5"/>
+    <property name="kill" type="bool" value="false"/>
+    <property name="state" value="battle"/>
+    <property name="text">I see you found your way into our gym.
+,I've worked hard to maintain my status
+as the best trainer in this region so if 
+you want to move up the ranks
+you'll have to go through us.
+,BE PREPARED!!</property>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="2" name="Objects" offsetx="2" offsety="-13">
+  <properties>
+   <property name="group" value="objects"/>
+  </properties>
+  <object id="16" gid="2293" x="600.667" y="290.333" width="128" height="191"/>
+  <object id="17" gid="2293" x="316.667" y="322.333" width="128" height="191"/>
+  <object id="18" gid="2290" x="26" y="699.667" width="128" height="191"/>
+  <object id="19" gid="2284" x="606" y="529" width="128" height="191"/>
+  <object id="20" gid="2299" x="624.667" y="351.667" width="64" height="64"/>
+  <object id="21" gid="2147485947" x="144.667" y="689" width="64" height="64"/>
+  <object id="22" gid="2298" x="478" y="238.333" width="64" height="64"/>
+  <object id="23" gid="2298" x="30" y="211.667" width="64" height="64"/>
+  <object id="24" gid="2147485943" x="671.333" y="593" width="64" height="64"/>
+  <object id="25" gid="2147485943" x="675.333" y="726.333" width="64" height="64"/>
+  <object id="26" gid="2296" x="611.333" y="591.667" width="64" height="64"/>
+  <object id="27" gid="468" x="360.667" y="405" width="64" height="96"/>
+  <object id="28" gid="446" x="424.667" y="345" width="64" height="96"/>
+  <object id="35" gid="485" x="490" y="346.333" width="64" height="96"/>
+ </objectgroup>
+ <layer id="3" name="collisions" width="12" height="12">
+  <properties>
+   <property name="group" value="collision"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,1664,1665,1665,1666,0,0,0,0,0,0,0,
+0,1717,1718,1718,1719,0,0,0,0,0,0,0,
+0,1717,1718,1718,1719,0,0,0,0,0,0,0,
+0,1717,1718,1718,1719,0,0,0,0,0,0,0,
+0,1770,1721,1720,1772,0,0,0,0,0,0,0,
+0,0,1770,1772,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="6" name="trim" width="12" height="12">
+  <properties>
+   <property name="group" value=""/>
+  </properties>
+  <data encoding="csv">
+1,2,2,2,2,2,2,2,2,2,2,3,
+9,0,0,0,0,0,0,0,0,0,0,11,
+9,0,0,0,0,0,0,0,0,0,0,11,
+9,0,0,0,0,0,0,0,0,0,0,11,
+9,0,0,0,0,0,0,0,0,0,0,11,
+9,0,0,0,0,0,0,0,0,0,0,11,
+9,0,0,0,0,0,0,0,0,0,0,11,
+9,0,0,0,0,0,0,0,0,0,0,11,
+9,0,0,0,0,0,0,0,0,0,0,11,
+9,0,0,0,0,0,0,0,0,0,0,11,
+9,0,0,0,0,0,0,0,0,0,0,11,
+17,18,18,18,18,5,4,18,18,18,18,19
+</data>
+ </layer>
+ <objectgroup id="4" name="transitions">
+  <properties>
+   <property name="group" value="tra"/>
+  </properties>
+  <object id="1" x="338.333" y="754.333" width="89.3333" height="11.3333">
+   <properties>
+    <property name="dest" value="main"/>
+    <property name="pos" value="3295,421"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="collisions" offsetx="1" offsety="-5">
+  <properties>
+   <property name="group" value="cols"/>
+  </properties>
+  <object id="3" x="-46" y="-17" width="55" height="807"/>
+  <object id="4" x="-49.3333" y="749" width="357.333" height="51"/>
+  <object id="5" x="460" y="751" width="357" height="52"/>
+  <object id="6" x="754.667" y="10" width="43" height="794"/>
+  <object id="7" x="-17.6667" y="-35.3333" width="811" height="112"/>
+  <object id="31" x="226.667" y="769.333" width="294.667" height="32"/>
+ </objectgroup>
+</map>

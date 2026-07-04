@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="12" height="12" tilewidth="64" tileheight="64" infinite="0" nextlayerid="9" nextobjectid="48">
+ <tileset firstgid="1" source="TileSets/floorTIles.tsx"/>
+ <tileset firstgid="73" source="TileSets/wallpapers.tsx"/>
+ <tileset firstgid="169" source="TileSets/desks.tsx"/>
+ <tileset firstgid="199" source="TileSets/indoorDeco.tsx"/>
+ <tileset firstgid="367" source="TileSets/npcs.tsx"/>
+ <tileset firstgid="1485" source="TileSets/more terrain.tsx"/>
+ <tileset firstgid="2280" source="TileSets/trees.tsx"/>
+ <tileset firstgid="2294" source="TileSets/smallRocks.tsx"/>
+ <tileset firstgid="2302" source="TileSets/trees2.tsx"/>
+ <tileset firstgid="2309" source="TileSets/OutdoorDeco.tsx"/>
+ <layer id="1" name="bg" width="12" height="12">
+  <properties>
+   <property name="group" value="below"/>
+  </properties>
+  <data encoding="csv">
+107,75,75,75,75,75,75,75,75,75,75,75,
+115,83,83,83,83,83,83,83,83,83,83,83,
+1536,1536,1536,1536,1537,1537,1536,1537,1536,1537,1537,1537,
+1537,1537,1536,1537,1536,1536,1537,1537,1537,1537,1537,1536,
+1536,1537,1723,1723,1723,1536,1536,1537,1537,1536,1537,1536,
+1537,1536,1723,1723,1723,1536,1537,1537,1536,1536,1537,1536,
+1536,1537,1536,1723,1536,1536,1536,1537,1536,1536,1537,1536,
+1537,1537,1536,1537,1536,1537,1537,1537,1536,1537,1537,1536,
+1536,1537,1536,1536,1536,1537,1537,1536,1537,1537,1537,1536,
+1537,1537,1536,1536,1536,1537,1536,1536,1537,1537,1537,1537,
+1537,1537,1536,1537,1537,1536,1537,1537,1537,1536,1537,1537,
+1536,1537,1536,1537,1536,1537,1536,1536,1537,1537,1537,1536
+</data>
+ </layer>
+ <objectgroup id="7" name="dialog">
+  <properties>
+   <property name="group" value="dialog"/>
+  </properties>
+  <object id="46" x="414" y="423" width="113" height="21">
+   <properties>
+    <property name="text">Head north from the central house to reach
+the Mayor's.
+,Be carefull he has become corrupt after 
+discovering a powerful Fakemon found only
+in the heart of a volcano.  </property>
+   </properties>
+  </object>
+  <object id="47" x="412.666" y="423.667" width="114.667" height="30.6667">
+   <properties>
+    <property name="area" value="jungle"/>
+    <property name="iD" type="int" value="12"/>
+    <property name="kill" type="bool" value="false"/>
+    <property name="state" value="battle"/>
+    <property name="text">We are the top generals from all of this 
+land. Best us in combat and we will reward
+you extensively.
+,Furthermore besting us will get the attention 
+of the mayor.
+,BE PREPARED!!</property>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="3" name="collisions" width="12" height="12">
+  <properties>
+   <property name="group" value="collision"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,1669,1670,1670,1670,1671,2315,0,0,2316,0,0,
+0,1722,0,0,0,1724,2323,0,0,2324,0,0,
+0,1722,0,0,0,1724,0,2147485974,2147485973,2327,0,0,
+0,1775,1726,0,1725,1777,0,0,0,0,0,0,
+0,0,1775,1776,1777,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,2314,0,0,0,0,0,0,0,0,0,0,
+0,2322,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="8" name="overlap" width="12" height="12">
+  <properties>
+   <property name="group" value=""/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,2328,2328,2328,0,0,0,0,
+0,0,0,0,2328,2328,2328,2312,0,0,0,0,
+0,0,0,0,2328,2328,2328,2328,2328,2330,0,0,
+0,0,0,2330,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="2" name="Objects" offsetx="2" offsety="-13">
+  <properties>
+   <property name="group" value="objects"/>
+  </properties>
+  <object id="35" gid="2286" x="607.333" y="295.667" width="128" height="191"/>
+  <object id="36" gid="2286" x="20.6667" y="525" width="128" height="191"/>
+  <object id="37" gid="2286" x="439.333" y="293" width="128" height="191"/>
+  <object id="38" gid="2280" x="636.667" y="437" width="128" height="191"/>
+  <object id="39" gid="2280" x="234" y="211.667" width="128" height="191"/>
+  <object id="40" gid="2307" x="559.333" y="590.333" width="192" height="256"/>
+  <object id="41" gid="2308" x="123.333" y="407.667" width="192" height="256"/>
+  <object id="42" gid="2306" x="14.3333" y="695.667" width="192" height="256"/>
+  <object id="43" gid="2286" x="620.667" y="734.333" width="128" height="191"/>
+  <object id="44" gid="575" x="400.667" y="435.667" width="64" height="96"/>
+  <object id="45" gid="511" x="475.333" y="435.667" width="64" height="96"/>
+ </objectgroup>
+ <layer id="6" name="trim" width="12" height="12">
+  <properties>
+   <property name="group" value=""/>
+  </properties>
+  <data encoding="csv">
+1,2,2,2,2,2,2,2,2,2,2,3,
+9,0,0,0,0,0,0,0,0,0,0,11,
+9,0,0,0,0,0,0,0,0,0,0,11,
+9,0,0,0,0,0,0,0,0,0,0,11,
+9,0,0,0,0,0,0,0,0,0,0,11,
+9,0,0,0,0,0,0,0,0,0,0,11,
+9,0,0,0,0,0,0,0,0,0,0,11,
+9,0,0,0,0,0,0,0,0,0,0,11,
+9,0,0,0,0,0,0,0,0,0,0,11,
+9,0,0,0,0,0,0,0,0,0,0,11,
+9,0,0,0,0,0,0,0,0,0,0,11,
+17,18,18,18,18,5,4,18,18,18,18,19
+</data>
+ </layer>
+ <objectgroup id="4" name="transitions">
+  <properties>
+   <property name="group" value="tra"/>
+  </properties>
+  <object id="1" x="338.333" y="754.333" width="89.3333" height="11.3333">
+   <properties>
+    <property name="dest" value="main"/>
+    <property name="pos" value="355,607"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="collisions" visible="0" offsetx="1" offsety="-5">
+  <properties>
+   <property name="group" value="cols"/>
+  </properties>
+  <object id="3" x="-46" y="-17" width="55" height="807"/>
+  <object id="4" x="-49.3333" y="749" width="357.333" height="51"/>
+  <object id="5" x="460" y="751" width="357" height="52"/>
+  <object id="6" x="754.667" y="10" width="43" height="794"/>
+  <object id="7" x="-17.6667" y="-35.3333" width="811" height="112"/>
+  <object id="31" x="226.667" y="769.333" width="294.667" height="32"/>
+ </objectgroup>
+</map>

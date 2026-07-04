@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="8" height="8" tilewidth="64" tileheight="64" infinite="0" nextlayerid="8" nextobjectid="16">
+ <tileset firstgid="1" source="TileSets/floorTIles.tsx"/>
+ <tileset firstgid="73" source="TileSets/wallpapers.tsx"/>
+ <tileset firstgid="169" source="TileSets/desks.tsx"/>
+ <tileset firstgid="199" source="TileSets/indoorDeco.tsx"/>
+ <tileset firstgid="367" source="TileSets/npcs.tsx"/>
+ <layer id="1" name="bg" width="8" height="8">
+  <properties>
+   <property name="group" value="below"/>
+  </properties>
+  <data encoding="csv">
+112,80,80,80,80,80,80,96,
+120,88,88,88,88,88,88,104,
+6,7,7,7,7,7,7,7,
+14,15,15,15,15,15,15,15,
+14,15,15,15,15,15,15,15,
+14,15,15,15,15,15,15,15,
+14,15,15,15,15,15,15,15,
+14,15,15,15,15,15,15,15
+</data>
+ </layer>
+ <objectgroup id="7" name="dialog">
+  <properties>
+   <property name="group" value="dialog"/>
+  </properties>
+  <object id="12" x="250" y="320" width="48" height="11.3333">
+   <properties>
+    <property name="state" value="shop"/>
+    <property name="text">Hi there
+Welcome to the shop,What would you like to buy. </property>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="2" name="Objects">
+  <properties>
+   <property name="group" value="objects"/>
+  </properties>
+  <object id="13" gid="536" x="246.667" y="271.667" width="64" height="96"/>
+  <object id="15" x="247" y="319" width="54" height="23.3333">
+   <properties>
+    <property name="auto" type="bool" value="false"/>
+    <property name="iD" type="int" value="2"/>
+    <property name="kill" type="bool" value="true"/>
+    <property name="state" value="shop"/>
+    <property name="text">Hi There. The Hospital director told me
+you would be coming.
+,Here  you can buy and sell items by clicking
+the button corresponding to the menu 
+you need.
+,Afterwards select the items and press
+confirm. Same applies for the hospital.
+Money can easily bet collected by besting
+wild Fakemons in duels.
+,Just remember you can only hold up to 4
+Fakemons and items into battle .</property>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="3" name="collisions" width="8" height="8">
+  <properties>
+   <property name="group" value="collision"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,
+264,283,249,249,247,248,0,0,
+272,291,257,257,255,256,171,0,
+0,0,0,0,0,0,181,0,
+180,190,190,190,190,190,191,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="6" name="trim" width="8" height="8">
+  <properties>
+   <property name="group" value=""/>
+  </properties>
+  <data encoding="csv">
+1,2,2,2,2,2,2,3,
+9,0,0,0,0,0,0,11,
+9,0,0,0,0,0,0,11,
+9,0,0,0,0,0,0,11,
+9,0,0,0,0,0,0,11,
+9,0,0,0,0,0,0,11,
+9,0,0,0,0,0,0,11,
+17,18,18,5,4,18,18,19
+</data>
+ </layer>
+ <objectgroup id="4" name="transitions">
+  <properties>
+   <property name="group" value="tra"/>
+  </properties>
+  <object id="1" x="210.333" y="498.333" width="89.3333" height="11.3333">
+   <properties>
+    <property name="dest" value="main"/>
+    <property name="pos" value="286,2537"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="collisions" visible="0">
+  <properties>
+   <property name="group" value="cols"/>
+  </properties>
+  <object id="3" x="-42" y="-1" width="55" height="543"/>
+  <object id="4" x="-92" y="493" width="272" height="51"/>
+  <object id="5" x="332" y="490" width="301" height="57"/>
+  <object id="6" x="500" y="-22" width="43" height="602"/>
+  <object id="7" x="-75" y="-42" width="635" height="112"/>
+  <object id="8" x="177.333" y="514" width="166" height="51"/>
+ </objectgroup>
+</map>

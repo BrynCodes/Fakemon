@@ -1,0 +1,17 @@
+Potion,Health-20,5
+Super Potion,Health-50,15
+Hyper Potion,Health-100,20
+Heal Berry,Health-25,8
+Guard Powder,Effectiveness-0.50,20
+Strength Elixir,Effectiveness-0.30,24
+Protection Berry,Effectiveness-0.20,15
+Accuracy Potion,Accuracy-10,15
+Quick Powder,Accuracy-15,25
+Accuracy Pill,Accuracy-20,23
+Cool Orb,Health-35,Effectiveness-0.10,14
+Luck Incense,Effectiveness-0.20,Accuracy-5,20
+Revitalising Mist,Health-20,Effectiveness-0.20,27
+Fakeball,65,10
+Ultraball,75,15
+Masterball,85,20
+Luxuryball,100,30
